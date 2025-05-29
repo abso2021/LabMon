@@ -19,9 +19,9 @@ if ($openFileDialog.ShowDialog() -eq "OK") {
 $maxAgeSeconds = 60
 $smtpServer = "smtp.gmail.com"
 $smtpPort = 587
-$smtpUser = "abbassobhi@gmail.com"
+$smtpUser = "abcd@gmail.com"
 $smtpPass = "qwiztxixczrpvbnl"
-$to = "sayedabb@ualberta.ca"
+$to = "efgh@ualberta.ca"
 $from = $smtpUser
 $subject = "WARNING from LabMon"
 $bodyTemplate = @"
